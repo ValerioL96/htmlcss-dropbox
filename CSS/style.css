@@ -3,3 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    height:100vh;
+    font-size: 1.2rem;
+}
+
+.flex{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.button-blu{
+    background-color: hsl(217.88deg 100% 50%);
+    color: white;
+    border: solid transparent;
+    padding: .5rem 1rem;
+}
+
+.upper{
+   justify-content: space-between;
+   padding: 1.5rem 1.5rem;
+}
+
+
+
+header nav ul li{
+    display: inline-block;
+    margin:0 2rem;
+}
+
+.jumbotron{
+    background-color: hsl(207.06deg 51.52% 80.59%);
+    padding: 3rem 20rem 1rem;
+}
+
+section.jumbotron h1{
+    font-size: 4.5rem;
+    padding-bottom: 3rem;
+}
+
+section.jumbotron p{
+    padding-right: 1rem;
+    text-align: start;
+    padding-bottom: 1.5rem;
+}
+
+section.jumbotron .button-blu{
+    margin-bottom: 1.5rem;
+}
+
+div.img{
+    height: 430px;
+    width: 450px;
+    background-color: red;
+    float: right;
+}
+
+
+
+section.jumbotron h2{
+    font-size: 4rem;
+    padding-top: 3rem;
+    
+}
