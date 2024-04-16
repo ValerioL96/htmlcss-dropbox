@@ -148,8 +148,8 @@ div.container div.offers article li{
 }
 
 .button-offers{
-     padding: .5rem 2.5rem;
-     text-align: center;
+    padding: .5rem 2.5rem;
+    text-align: center;
     font-size: 1rem;
 }
 
@@ -166,30 +166,58 @@ div.container div.offers article li{
     color: blue;
 }
 
+/*ufficio style*/
+
 div.container div.ufficio{
     border: solid  hsl(240deg 4.55% 82.75%);
     margin: 0 0 0 2rem;
+    padding-bottom: 4rem;
 }
 
 div.container div.ufficio section.conttata-ufficio{
     justify-content: center;
-    flex-wrap: wrap;
-    padding: 1rem;
+    flex-wrap: wrap;  
+    padding: .5rem 5rem;
+    font-size: 1rem;
     border-bottom: solid hsl(240deg 4.55% 82.75%);
 }
 
 div.container div.ufficio section.enterprice{
-    flex-direction: column;
+    flex-direction: row;
+    padding: 1rem 1.5rem 2rem;
+    line-height: 2.5rem;
+    margin-right: 2rem;
+}
 
+div.ufficio section.enterprice div.testo{
+    flex-direction: column;
+}
+
+div.ufficio section.enterprice div.testo h5{
+    padding-bottom: 3rem;
 }
 
 div.ufficio section.enterprice p{
     font-size: .9rem;
-    padding-bottom: 3rem;
+    line-height: 1rem;
 }
 
 div.ufficio section.enterprice .button-enterprice{
-  
+    padding: .5rem 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/**/
+
+div.container section.flex{
+    justify-content: space-between;
+}
+
+div.container section div.img-1{
+    height: 430px;
+    width: 450px;
+    background-color: red;
 }
 
     
