@@ -84,6 +84,7 @@ div.container{
  width: 1000px;
  margin:0 auto;
  padding-top: 5rem;
+ padding-bottom: 5rem;
 }
 
 div.container h1{
@@ -212,12 +213,75 @@ div.ufficio section.enterprice .button-enterprice{
 
 div.container section.flex{
     justify-content: space-between;
+    padding: 4rem 2rem 5rem;
 }
 
 div.container section div.img-1{
-    height: 430px;
-    width: 450px;
+    height: 500px;px;
+    width:  2060px;
     background-color: red;
 }
 
-    
+div.container section div.partner{
+    padding: 4rem 6rem;
+}
+
+div.container section div.partner>h3{
+    padding-bottom: 2rem;
+}
+
+div.container section div.partner>p{
+    padding-bottom: 2rem;
+}
+
+div.container section div.partner>input{
+    background-color: white;
+    color: grey;
+    border: solid grey;
+    font-size: 1rem;
+}
+
+section.business{
+    justify-content: space-around;
+}
+
+div.container div.business article{
+    width: calc((100% /3)-1rem);
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+}
+
+div.img-2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+div.business article div.spiegazioni{
+    padding-right:2rem ;
+}
+
+div.business article div.spiegazioni h3{
+    padding-bottom: 1.5rem;
+}
+
+div.business article div.spiegazioni p{
+    font-size: .9rem;
+}
+
+#h1-business{
+    padding: 3rem 19rem 5rem 0;
+}
+
+#button{
+    font-size: 1rem;
+}
+
+/**/
+
+div.main-footer{
+    background-color: hsl(207.06deg 51.52% 80.59%);
+    height: 500px;
+}
