@@ -33,20 +33,22 @@ ul{
 /*Upper style*/
 
 .upper{
-   justify-content: space-between;
-   padding: 1.5rem 1.5rem;
+   padding: 1.5rem 1rem;
+}
+
+header nav{
+    justify-content: space-between;
 }
 
 header nav ul li{
-    display: inline-block;
-    margin:0 2rem;
+    margin-right: 1rem;
 }
 
 /*Jumbotron style*/
 
 .jumbotron{
     background-color: hsl(207.06deg 51.52% 80.59%);
-    padding: 3rem 20rem 1rem;
+    padding: 3rem 18rem 1rem;
 }
 
 section.jumbotron h1{
@@ -73,10 +75,10 @@ div.img{
 
 section.jumbotron h2{
     font-size: 4rem;
-    padding-top: 3rem;
-    
+    padding-top: 3rem; 
 }
 
+/*COSTUM MAIN*/
 
 div.container{
  width: 1000px;
@@ -91,30 +93,30 @@ div.container h1{
 
 div.container .fatturazione{
     margin: .4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     background-color:hsl(217.88deg 100% 50%);
     border: solid hsl(240deg 4.55% 82.75%);
 }
+
+/*offers style*/
 
 div.offers{
  justify-content: space-around;
 }
 
 div.container div.suboffers{
-    padding: .5rem 6rem;
-   
+    padding: .5rem 5rem;
+    border-bottom: solid hsl(240deg 4.55% 82.75%) ;
 }
 
 div.container div.offers i{
-   vertical-align: middle;
-     padding-left: 1rem;
-     font-size: 1rem;
-   
+    vertical-align: middle;
+    padding-left: .5rem;
+    font-size: 1rem;  
 }
 
-div.container div.offers p{
+div.container div.offers label{
     vertical-align: middle;
-    display: inline-block;
     font-size: 1rem;
     
 }
@@ -124,6 +126,70 @@ div.container div.offers article{
     border: solid  hsl(240deg 4.55% 82.75%);
     width: calc((100% /3)-1rem);
     margin-left: 2rem;
-    padding: 0 1.5rem;
-   
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
 }
+
+div.container div.offers article>div.professional{
+     padding: 1rem 1.5rem 2rem; 
+}
+
+div.container div.offers article p{
+    font-size: .9rem;
+    padding-bottom: 3rem;
+    color: hsl(20deg 1.82% 67.65%);
+}
+
+div.container div.offers article li{
+    font-size: .9rem;
+    line-height: 2rem;
+    text-align:justify;
+    padding-bottom: 1.5rem;
+}
+
+.button-offers{
+     padding: .5rem 2.5rem;
+     text-align: center;
+    font-size: 1rem;
+}
+
+#p-offers{
+    font-size: .9rem;
+    padding-bottom: 2rem;
+    border-bottom: solid hsl(20deg 1.82% 67.65%) .1rem ;
+}
+
+#button{
+    border: transparent;
+    border-bottom: solid blue .01rem;
+    background-color: transparent;
+    color: blue;
+}
+
+div.container div.ufficio{
+    border: solid  hsl(240deg 4.55% 82.75%);
+    margin: 0 0 0 2rem;
+}
+
+div.container div.ufficio section.conttata-ufficio{
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-bottom: solid hsl(240deg 4.55% 82.75%);
+}
+
+div.container div.ufficio section.enterprice{
+    flex-direction: column;
+
+}
+
+div.ufficio section.enterprice p{
+    font-size: .9rem;
+    padding-bottom: 3rem;
+}
+
+div.ufficio section.enterprice .button-enterprice{
+  
+}
+
+    
