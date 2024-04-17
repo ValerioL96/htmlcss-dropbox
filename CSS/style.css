@@ -48,12 +48,12 @@ header nav ul li{
 
 .jumbotron{
     background-color: hsl(207.06deg 51.52% 80.59%);
-    padding: 3rem 18rem 1rem;
+    padding: 3rem 18rem 0rem;
 }
 
 section.jumbotron h1{
     font-size: 4.5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 
 section.jumbotron p{
@@ -66,10 +66,9 @@ section.jumbotron .button-blu{
     margin-bottom: 1.5rem;
 }
 
-div.img{
-    height: 430px;
-    width: 450px;
-    background-color: red;
+section.jumbotron>img{
+    height: 530px;
+    width: 610px;
     float: right;
 }
 
@@ -216,14 +215,13 @@ div.container section.flex{
     padding: 4rem 2rem 5rem;
 }
 
-div.container section div.img-1{
-    height: 500px;px;
-    width:  2060px;
-    background-color: red;
+div.container section>img{
+    height: 500px;
+    width:  1990px;
 }
 
 div.container section div.partner{
-    padding: 4rem 6rem;
+    padding: 0rem 2rem;
 }
 
 div.container section div.partner>h3{
@@ -253,11 +251,9 @@ div.container div.business article{
     margin-bottom: 4rem;
 }
 
-div.img-2{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    margin-left: 1rem;
+div.container div.business article>img{
+    width: 280px;
+    height: 250px;
     margin-bottom: 1rem;
 }
 
@@ -285,6 +281,39 @@ div.business article div.spiegazioni p{
 
 /*style sponsor*/
 
+.bg-green{
+    background-color: hsl(112.5deg 38.89% 71.76%);
+    border: solid .9rem hsl(111.43deg 38.89% 85.88%);
+}
+
+.bg-bourdeax{
+    background-color: hsl(336.4deg 84.76% 20.59%);
+}
+
+.bg-bluelight{
+    background-color: hsl(197.18deg 100% 40.39%);
+}
+
+.bg-red{
+    background-color:hsl(0deg 100% 55.49%);
+}
+
+.bg-darkred{
+    background-color: hsl(351.27deg 100% 41.76%);
+}
+
+.bg-bluewhite{
+    background-color: hsl(207.06deg 51.52% 80.59%);
+}
+
+.bg-blue{
+    background-color: hsl(228.1deg 81.69% 27.84%);
+}
+
+.bg-yellow{
+    background-color: hsl(48.7deg 100% 59.41%);
+}
+
 div.main-footer section.sponsor{
     flex-direction: row;
     justify-content: space-between;
@@ -293,25 +322,36 @@ div.main-footer section.sponsor{
 section.sponsor div.university , div.companies{
     flex-direction: column;
     width: 30%;
-    background-color: brown;
     border: solid black;
 }
 
 section.sponsor div.article-up , div.article-sub{
-    border: solid green;
     flex-direction: row;
 }
 
 section.sponsor article{
+    justify-content: center;
+    align-items: center;
+    color: white;
     width: 200px;
     height: 200px;
-    border: solid white;
+}
+
+section.sponsor article>img{ 
+    width: 100px;
+    height: 100px;
 }
 
 section.sponsor div.designit{
     background-color: blue;
     width: 50%;
-    height: 410px;
+    height: 405px;
+}
+
+section.sponsor div.designit>img{
+    padding: 2rem;
+    width: 300px;
+    height: 150px;
 }
 
 /**/
