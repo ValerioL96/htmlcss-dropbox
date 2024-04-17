@@ -80,7 +80,7 @@ section.jumbotron h2{
 
 /*COSTUM MAIN*/
 
-div.container{
+.container{
  width: 1000px;
  margin:0 auto;
  padding-top: 5rem;
@@ -283,11 +283,6 @@ div.business article div.spiegazioni p{
 
 /*CUSTOM MAIN FOOTER*/
 
-div.main-footer{
-    background-color: hsl(207.06deg 51.52% 80.59%);
-    height: 500px;
-}
-
 /*style sponsor*/
 
 div.main-footer section.sponsor{
@@ -302,12 +297,7 @@ section.sponsor div.university , div.companies{
     border: solid black;
 }
 
-section.sponsor div.article-up{
-    border: solid green;
-    flex-direction: row;
-}
-
-section.sponsor div.article-sub{
+section.sponsor div.article-up , div.article-sub{
     border: solid green;
     flex-direction: row;
 }
@@ -318,10 +308,79 @@ section.sponsor article{
     border: solid white;
 }
 
-
-
 section.sponsor div.designit{
     background-color: blue;
     width: 50%;
-    height: 400px;
+    height: 410px;
+}
+
+/**/
+
+div.main-footer section.prova{
+    background-color: hsl(207.06deg 51.52% 80.59%);
+    justify-content: space-around;
+    
+    padding: 5rem 10rem;
+}
+
+div.main-footer section.prova>h1{
+    font-size: 2.5rem;
+    color: hsl(336.4deg 84.76% 20.59%);
+    padding-right: 10rem;
+}
+
+div.main-footer section.prova>input{
+    font-size: 1rem;
+    padding: 0.2rem 4rem;
+}
+
+/**/
+
+section.container{
+    padding: 5rem 0;
+}
+
+section.container>h1{
+    font-size: 2.5rem;
+    border-bottom: solid hsl(20deg 1.82% 67.65%);
+    padding-bottom: 2rem;
+}
+
+section.container>h4{
+    border-bottom: solid hsl(20deg 1.82% 67.65%);
+    padding: 2rem 0;
+}
+
+/*COSTUM FOOTER*/
+
+footer{
+    background-color: black;
+}
+
+footer div.footer-nav{
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 4rem;
+    padding: 5rem;
+    line-height: 3rem;
+    color: white;
+}
+
+footer div.footer-nav>nav{
+    flex-direction: column;
+}
+
+footer div.footer-nav li{
+    font-size: 1rem;
+}
+
+footer div.footer-nav>nav.dropbox-nav{
+    padding-bottom: 4rem;
+    border-bottom: solid hsl(20deg 1.82% 67.65%) .1rem;
+}
+
+footer>p{
+    color: hsl(20deg 1.82% 67.65%);
+    padding:0rem 8rem 4rem;
+    font-size: 1rem;
 }
