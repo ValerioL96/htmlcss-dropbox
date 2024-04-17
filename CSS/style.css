@@ -209,7 +209,7 @@ div.ufficio section.enterprice .button-enterprice{
     font-size: 1rem;
 }
 
-/**/
+/*style immagine e testo div.partner*/
 
 div.container section.flex{
     justify-content: space-between;
@@ -241,7 +241,9 @@ div.container section div.partner>input{
     font-size: 1rem;
 }
 
-section.business{
+/*style article del div.business*/
+
+div.business{
     justify-content: space-around;
 }
 
@@ -279,9 +281,47 @@ div.business article div.spiegazioni p{
     font-size: 1rem;
 }
 
-/**/
+/*CUSTOM MAIN FOOTER*/
 
 div.main-footer{
     background-color: hsl(207.06deg 51.52% 80.59%);
     height: 500px;
+}
+
+/*style sponsor*/
+
+div.main-footer section.sponsor{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.sponsor div.university , div.companies{
+    flex-direction: column;
+    width: 30%;
+    background-color: brown;
+    border: solid black;
+}
+
+section.sponsor div.article-up{
+    border: solid green;
+    flex-direction: row;
+}
+
+section.sponsor div.article-sub{
+    border: solid green;
+    flex-direction: row;
+}
+
+section.sponsor article{
+    width: 200px;
+    height: 200px;
+    border: solid white;
+}
+
+
+
+section.sponsor div.designit{
+    background-color: blue;
+    width: 50%;
+    height: 400px;
 }
