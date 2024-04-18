@@ -160,8 +160,8 @@ div.container div.offers article li{
     font-size: 1rem;
 }
 
-#check{
-list-style-type:lower-greek blue;
+.check{
+    color: hsl(217.88deg 100% 50%);
 }
 
 #p-offers{
